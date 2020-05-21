@@ -47,12 +47,13 @@ body {
 
   /* visited link */
   a:visited {
-    color: #ccc;
+    color: orange;
   }
 
   /* mouse over link */
   a:hover {
     color: #999;
+    text-decoration: unset;
   }
 
   /* selected link */
