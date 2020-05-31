@@ -1,4 +1,5 @@
 # OC Civic Coders Website
+This repo is for the OC Civic Coders website: https://www.occiviccoders.com/
 
 ## Built with
 * [Jekyll](https://jekyllrb.com/tutorials/convert-site-to-jekyll/)
