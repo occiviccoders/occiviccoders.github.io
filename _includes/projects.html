@@ -1,0 +1,36 @@
+<div style="background-color: #fff;">
+    <div class="container py-5">
+        <div class="row center py-5">
+            <h1 id="projects">Projects</h1>
+            <div class="row">
+                {% for project in site.projects %}
+                    <div class="col-6 mb-3">
+                        <div class="card h-100">
+                            <a href="{{project.project-link}}"><img class="card-img-top" src="{{project.project-image}}"/></a>
+                            <div class="card-body">
+                                <h3 class="card-title"><a href="{{project.project-link}}">Project: {{project.title}}</a></h3>
+                                <p class="card-text">{{project.description}}</p> 
+                                <p class="card-text py-0"><b>Looking For:</b> {{project.looking-for}}</p>
+                                <p class="card-text py-0"><b>Links:</b> 
+                                    {% for item in project.links %}
+                                        <a target="_blank" href="{{ item.url }}">{{ item.name }}</a>{%- if forloop.last == false -%}, {%- endif -%}
+                                    {% endfor %}
+                                </p>
+                            </div>
+                            <div class="card-footer">
+                                <span class="text-muted">Status: Open</span>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <hr>
+        <div class="row py-5">
+            <div class="col-md-12 col-lg-12 col-xs-12">
+                <h1 id="join-OCCC">Join Us</h1>
+                <p>Please join us as we try to make a difference in our community. Stay up-to-date on our progress and attend in-person MeetUps and working sessions. We are planning to hold once-a-month new member orientation MeetUps and bi-weekly working sessions (weekend and weekday), check MeetUp for latest event information.</p>
+            </div>
+        </div>
+    </div>
+</div>

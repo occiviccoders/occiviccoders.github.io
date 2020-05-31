@@ -2,94 +2,11 @@
 layout: default
 title: OC Civic Coders
 ---
-<div class="jumbotron jumbotron-fluid">
-    <h1><strong>Coding for Causes Together</strong></h1>
-    <h2>We’re a group of coders with a passion to learn and give back to the community.</h2>
-</div>
-<div style="background-color: #fff;">
-  <div class="container py-5">
-    <h1 id="about">Who Are We?</h1>
-    <div class="row center py-5">
-      <div class="col-md-6 col-lg-6 col-xs-12">
-        <span class="fa-stack fa-5x text-muted">
-          <i class="fas fa-circle fa-stack-2x"></i>
-          <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
-        </span>
-        <h3>Coders</h3>
-        <p>We’re a group of coders with a passion to learn and give back to the community.  All experience levels are welcome.  Civic coding is a great way to learn and practice new frameworks.  Experienced coders can share knowledge and use their skills to give back.</p>
-      </div>
-      <div class="col-md-6 col-lg-6 col-xs-12">
-        <span class="fa-stack fa-5x text-muted">
-          <i class="fas fa-circle fa-stack-2x"></i>
-          <i class="fas fa-users fa-stack-1x fa-inverse"></i>
-        </span>
-        <h3>Leaders</h3>
-        <p>We’re a group of community activists, volunteering time to collaborate with local communities, governments, and nonprofits to drive change.  We partner with the community to discover needs and organize technical projects to completion.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div style="background-color: #f5f5f5;">
-  <div class="container py-5">
-    <div class="row center py-2">
-      <div class="col">
-        <h1>Getting Started</h1>
-        <p class="text-center">Review Our <a href="https://github.com/occiviccoders/getting-started">Getting Started Guide</a>, along with some helpful tips below:</p>
-      </div>
-    </div>
-    <div class="row center py-2">
-      <div class="col-md-4 col-lg-4 col-xs-12">
-        <h2 class="headline-color">Find what drives you</h2>
-        <p>Working on a community project that you’re passionate about will greatly improve your chances of successful completion.  Your journey will have many roadblocks along the way.  The motivation for what you are building can be a powerful driving force to fall back on.</p>
-      </div>
-      <div class="col-md-4 col-lg-4 col-xs-12">
-        <h2 class="headline-color">Make it practical</h2>
-        <p>For beginners, start off with a small project or simple framework. For more experienced coders, work on something with a reasonable enough scope to be able to complete it. Look for existing data resources before jumping into any heavy coding.</p>
-      </div>
-      <div class="col-md-4 col-lg-4 col-xs-12">
-        <h2 class="headline-color">Be prepared to learn</h2>
-        <p>Whether you're just starting out, or using this as an opportunity to learn an entirely new stack or framework, anything can be achieved with google, patience, persistence, trial & error and some coffee.</p>
-      </div>
-    </div>
-  </div>
-</div>
-<div style="background-color: #fff;">
-  <div class="container py-5">
-    <div class="row center py-5">
-      <h1 id="projects">Projects</h1>
-      <div class="card-deck">
-        <div class="card">
-          <a href="https://www.occiviccoders.com/"><img class="card-img-top" src="./img/OCCC-web-project-img.png"/></a>
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://www.occiviccoders.com/">Project: OCCC Website</a></h3>
-            <p class="card-text">Design a website for the group to highlight projects, solicit ideas, and bring together those who want to be involved in civic projects from a coding perspective. Check out the Slack channel to see the progress of our website and give us feedback as we develop it.</p> 
-            <p class="card-text py-0"><b>Looking For:</b> Project Manager, Front End Develper (Jekyll + GitHub Pages)</p>
-            <p class="card-text py-0"><b>Links:</b> <a target="_blank" href="https://github.com/occiviccoders/occiviccoders.github.io">GitHub</a>, <a target="_blank" href="https://occiviccoders.slack.com/archives/CSUEBM8UR">Slack</a></p>
-          </div>
-          <div class="card-footer">
-            <span class="text-muted">Status: Open</span>
-          </div>
-        </div>
-        <div class="card">
-          <a href="https://www.occiviccoders.com/covid-response-OC/"><img class="card-img-top" src="./img/OCCC-covid-19.png"/></a>
-          <div class="card-body">
-            <h3 class="card-title"><a href="https://www.occiviccoders.com/covid-response-OC/">Project: OC Covid 19 Dashboard</a></h3>
-            <p class="card-text">A dashboard to track the spread of the Corona Virus (COVID-19) in the local Orange County community.  Let's work together to help prevent the spread of this disease!  The dashboard includes daily trends by age group, gender, and travel verses community spread.</p>                
-            <p class="card-text py-0"><b>Looking For:</b> Project Manager, Front End Developer (JavaScript)</p>
-            <p class="card-text"><b>Links:</b> <a target="_blank" href="https://github.com/occiviccoders/covid-response-OC">GitHub</a>, <a target="_blank" href="https://occiviccoders.slack.com/archives/C0102FEN66B">Slack</a></p>
-          </div>
-          <div class="card-footer">
-            <span class="text-muted">Status: Open</span>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="row py-5">
-      <div class="col-md-12 col-lg-12 col-xs-12">
-        <h1 id="join-OCCC">Join Us</h1>
-        <p>Please join us as we try to make a difference in our community. Stay up-to-date on our progress and attend in-person MeetUps and working sessions. We are planning to hold once-a-month new member orientation MeetUps and bi-weekly working sessions (weekend and weekday), check MeetUp for latest event information.</p>
-      </div>
-    </div>
-  </div>
-</div>
+<!-- see _includes/header.html -->
+{% include header.html %}
+<!-- see _includes/who-we-are.html -->
+{% include who-we-are.html %}
+<!-- see _includes/getting-started.html -->
+{% include getting-started.html %}
+<!-- see _includes/projects.html -->
+{% include projects.html %}

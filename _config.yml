@@ -1,2 +1,4 @@
 name: Andrew Akagawa, OC Civic Coders
 markdown: kramdown
+collections:
+  projects:

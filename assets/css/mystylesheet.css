@@ -3,63 +3,63 @@ body {
   margin: 0;
   padding: 0;
   background-color: #333e48;
-  }
+}
 
-  .container {
-    display: block;
-    width: 100%;
-    margin:auto;
-    text-align: center;
-    padding: 30px 0 30px 0;
-  }
+.container {
+  display: block;
+  width: 100%;
+  margin:auto;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
 
-  h1 {
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.5em;
-    text-align: center;
-    padding: 20px;
-  }
+h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  text-align: center;
+  padding: 20px;
+}
 
-  h2, h3 {
-    padding: 20px 30px 20px 30px;
-    text-align: center;
-    padding: 20px;
-  }
+h2, h3 {
+  padding: 20px 30px 20px 30px;
+  text-align: center;
+  padding: 20px;
+}
 
-  h4 {
-    padding: 20px 30px 0 30px;
-    text-align: center;
-    padding: 20px;
-  }
+h4 {
+  padding: 20px 30px 0 30px;
+  text-align: center;
+  padding: 20px;
+}
 
-  p {
-    padding: 20px 30px;
-    text-align: left;
-    font-size: 1.2em;
-  }
+p {
+  padding: 20px 30px;
+  text-align: left;
+  font-size: 1.2em;
+}
 
-  /* unvisited link */
-  a:link {
-    color: orange;
-  }
+/* unvisited link */
+a:link {
+  color: orange;
+}
 
-  /* visited link */
-  a:visited {
-    color: orange;
-  }
+/* visited link */
+a:visited {
+  color: orange;
+}
 
-  /* mouse over link */
-  a:hover {
-    color: #999;
-    text-decoration: unset;
-  }
+/* mouse over link */
+a:hover {
+  color: #999;
+  text-decoration: unset;
+}
 
-  /* selected link */
-  a:active {
-    color: orange;
-  }
+/* selected link */
+a:active {
+  color: orange;
+}
 
 
 /* .tab-pane {
@@ -69,42 +69,42 @@ body {
   font-size: 3em;
 }
 
-  .nav-tabs {
- border-top: 1px solid #ccc;
- border-left: 1px solid #ccc;
- border-right: 1px solid #ccc;
- border-radius: 5px;
- padding: 5px 5px 0 5px;
- font-weight: bold;
+.nav-tabs {
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 5px 0 5px;
+  font-weight: bold;
 }
 
 /* .nav-tabs>li>a:hover{
   border: 1px solid transparent;
 } */
 
-.nav>li>a:focus, .nav>li>a:hover{
+.nav>li>a:focus, .nav>li>a:hover {
 	color: #666;
 }
 
-ul.nav{
+ul.nav {
   width:100%;
 }
 .nav-tabs>li {
-    width: 20%;
-    padding-left: 30px;
+  width: 20%;
+  padding-left: 30px;
 }
 
-  .main-content {
-    padding: 30px 50px 0 50px;
-  }
+.main-content {
+  padding: 30px 50px 0 50px;
+}
 
-  .callout-row {
-    background-color: #333e48;
-    color: #fff;
-  }
+.callout-row {
+  background-color: #333e48;
+  color: #fff;
+}
 
 
-  .slidein2 {
+.slidein2 {
   margin-top: 200px;
   animation-duration: 10s;
   animation-name: slidein2;
@@ -116,43 +116,43 @@ ul.nav{
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition:opacity 1s ease-in-out;
 }
-  @keyframes slidein2 {
-    from {
-      margin-right:100%;
-      width:100%
-    }
-
-    to {
-      margin-left:100%;
-      width:100%;
-    }
+@keyframes slidein2 {
+  from {
+    margin-right:100%;
+    width:100%
   }
 
-  .slidein3 {
-    margin-top: 100px;
-    animation-duration: 15s;
-    animation-name: slidein3;
-    /* transition-timing-function: ease-in;
-    transition: 5s; */
-    transform: translateY(130%);
-    animation-iteration-count:infinite;
-    transition: opacity 1s ease-in-out;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition:opacity 1s ease-in-out;
+  to {
+    margin-left:100%;
+    width:100%;
   }
-    @keyframes slidein3 {
-      from {
-        margin-left:100%;
-        width:100%
-      }
+}
 
-      to {
-        margin-right:100%;
-        width:100%;
-      }
-    }
+.slidein3 {
+  margin-top: 100px;
+  animation-duration: 15s;
+  animation-name: slidein3;
+  /* transition-timing-function: ease-in;
+  transition: 5s; */
+  transform: translateY(130%);
+  animation-iteration-count:infinite;
+  transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition:opacity 1s ease-in-out;
+}
+@keyframes slidein3 {
+  from {
+    margin-left:100%;
+    width:100%
+  }
 
-    /* Style the video: 100% width and height to cover the entire window */
+  to {
+    margin-right:100%;
+    width:100%;
+  }
+}
+
+/* Style the video: 100% width and height to cover the entire window */
 /* #myVideo {
   position: fixed;
   right: 0;
@@ -211,54 +211,54 @@ ul.nav{
 }
 
 .accordion-container .article-title {
-		display: block;
-		position: relative;
-		margin: 0;
-		padding: 0.625em 0.625em 0.625em 2em;
-		border-top: 1px solid #fff;
-		font-size: 1.25em;
-		font-weight: normal;
-		color: #fff;
-		cursor: pointer;
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0.625em 0.625em 0.625em 2em;
+  border-top: 1px solid #fff;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: #fff;
+  cursor: pointer;
 }
 
 .accordion-container .article-title:hover,
 .accordion-container .article-title:active,
 .accordion-container .content-entry.open .article-title {
-		background-color: #5091cd;
-		color: white;
+  background-color: #5091cd;
+  color: white;
 }
 
 .accordion-container .article-title:hover i:before,
 .accordion-container .article-title:hover i:active,
 .accordion-container .content-entry.open i {
-		color: white;
+  color: white;
 }
 
 .accordion-container .content-entry i {
-		position: absolute;
-		top: 3px;
-		left: 12px;
-		font-style: normal;
-		font-size: 1.625em;
-		font-family: sans-serif;
-		color: #fff;
+  position: absolute;
+  top: 3px;
+  left: 12px;
+  font-style: normal;
+  font-size: 1.625em;
+  font-family: sans-serif;
+  color: #fff;
 }
 
 .accordion-container .content-entry i:before {
-		content: "+ ";
+  content: "+ ";
 }
 
 .accordion-container .content-entry.open i:before {
-		content: "- ";
+	content: "- ";
 }
 
 .accordion-content {
-		display: none;
-		padding-left: 2.3125em;
-    color: #000;
-    background-color: #fff;
-    padding-bottom: 2.3125em;
+  display: none;
+  padding-left: 2.3125em;
+  color: #000;
+  background-color: #fff;
+  padding-bottom: 2.3125em;
 }
 
 .accordion-content video {
@@ -267,28 +267,28 @@ ul.nav{
 
 
 #content {
-		width: 100%;
+	width: 100%;
 }
 
 .accordion-container,
 #description {
-		width: 90%;
-		margin: 1.875em auto;
+  width: 90%;
+  margin: 1.875em auto;
 }
 
 #description p {
-		line-height: 1.5;
+	line-height: 1.5;
 }
 
 #description h2 {
-		text-align: center;
+	text-align: center;
 }
 
 @media all and (min-width: 860px) {
-		#content {
-				width: 70%;
-				margin: 0 auto;
-		}
+  #content {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
 
 .col-md-4 {
