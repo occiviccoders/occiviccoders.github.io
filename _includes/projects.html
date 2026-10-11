@@ -5,8 +5,8 @@
             <div class="row">
                 {% assign projects = site.projects | sort: "order" %}
                 {% for project in projects %}
-                    <div class="col-6 mb-3">
-                        <div class="card h-100">
+                    <div class="col-6 mb-3 d-flex">
+                        <div class="card w-100">
                             <a href="{{project.project-link}}"><img class="card-img-top" src="{{project.project-image}}"/></a>
                             <div class="card-body">
                                 <h3 class="card-title"><a href="{{project.project-link}}">Project: {{project.title}}</a></h3>
