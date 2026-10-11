@@ -3,7 +3,8 @@
         <div class="row center py-5">
             <h1 id="projects">Projects</h1>
             <div class="row">
-                {% for project in site.projects %}
+                {% assign projects = site.projects | sort: "order" %}
+                {% for project in projects %}
                     <div class="col-6 mb-3">
                         <div class="card h-100">
                             <a href="{{project.project-link}}"><img class="card-img-top" src="{{project.project-image}}"/></a>
@@ -18,7 +19,7 @@
                                 </p>
                             </div>
                             <div class="card-footer">
-                                <span class="text-muted">Status: Open</span>
+                                <span class="text-muted">Status: {{project.status}}</span>
                             </div>
                         </div>
                     </div>

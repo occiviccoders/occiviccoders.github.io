@@ -1,5 +1,6 @@
 ---
 title: OCCC Website
+order: 2
 project-link: https://www.occiviccoders.com/
 project-image: ./assets/images/OCCC-web-project-img.png
 description: Design a website for the group to highlight projects, solicit ideas, and bring together those who want to be involved in civic projects from a coding perspective. Check out the Slack channel to see the progress of our website and give us feedback as we develop it.
